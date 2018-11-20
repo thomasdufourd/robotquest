@@ -10,6 +10,7 @@ const board = [
 ];
 
 
+// A useless comment
 const robot = {
     x: 0,
     y: 0,
