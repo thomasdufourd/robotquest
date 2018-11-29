@@ -6,7 +6,7 @@ We start here with a functional version of _robotquest_. This version implements
  - display and refreshes the board steps after steps (with colours)
 
 ## How-to 
-> You have to synchronize with this repository, as it might not have the last updates. Follow these instructions to synchronize.
+> You have to synchronize your forked repository with this present repository (_the upstream_), as **your** repository might not have the last updates. Follow these instructions to synchronize:
 
 ### Commit all your changes on `ex1` and/or `ex2`. 
 From this directory: `/home/vagrant/Code/robotquest`, use the well known commands: 
