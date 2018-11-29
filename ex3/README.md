@@ -8,7 +8,7 @@ We start here with a functional version of _robotquest_. This version implements
 ## How-to 
 > You have to synchronize with this repository, as it might not have the last updates. Follow these instructions to synchronize.
 
-### Check in all your changes on `ex1` and/or `ex2`. 
+### Commit all your changes on `ex1` and/or `ex2`. 
 From this directory: `/home/vagrant/Code/robotquest`, use the well known commands: 
  - `git add`, (eventually `git add .`) 
  - `git commit -m"With a nice commit message"` 
@@ -35,11 +35,11 @@ This will open the code as an independent project. Go through the code.
 
 ### Run the program
 Start from the `/home/vagrant/Code/robotquest/ex3` and type these commands: 
- - `npm install`
- - `npm test`
- - `node src/robotquest.js`
+ - `npm install`. This command tells _npm_ to install all the necessary packages, as specified in the `package.json` file. The packages files are downloaded to the `node_modules` directory. 
+ - `npm test`. This command runs the tests found in the `test` directory, usin `jest`. 
+ - `node src/robotquest.js`: tells `node` to start the program `robotquest.js` 
 
 
 ### New features
-What kind of feature(s) do you want to add to this _robotquest_ application ...?
+What kind of feature(s) do you want to add to this _robotquest_ application ...? Have some ideas before hackathon begins. 
 
