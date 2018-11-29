@@ -17,10 +17,33 @@ const trailIndicators = {
     down: setBright('↓')
 };
 
-
+// Here
 function turn(robot, step, turns) {
-    turns += 1;
-    return turns;
+// nothing happened
+
+    if (step === 'turn-right') {
+        switch (robot.head) {
+            case 'up':
+                robot.head = 'right';
+                break;
+            case 'down':
+                robot.head = 'left';
+                break;
+        }
+    } else {
+        switch (robot.head) {
+            case 'up':
+                robot.head = 'left';
+                break;
+            case 'down':
+                robot.head = 'right';
+                break;
+            case 'left':
+                robot.head = 'down';
+        }
+    }
+    return 1;
+
 }
 
 function move(robot, maxLineIndex, maxColumnIndex, nbOfMoves) {
