@@ -1,4 +1,4 @@
-# Exercise 4: Taking input from command-line (featuring _high order functions_)
+# Exercise 4: Taking input from command-line (featuring _arrow functions_)
 
 We have here a nearly functional version of _robotquest_. This version implements the same features as [ex3](https://github.com/WeIgniteTech/robotquest/blob/master/ex3/README.md), plus the following feature: 
  - take input from the command-line: `m` to move and `ctrl+c` to exit
@@ -91,6 +91,8 @@ Tips:
 
 Do you find some other possibilities to use _arrow functions_ in the code? Try them. 
 
+
+### Feel free to implement your features
 
 
 
