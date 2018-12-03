@@ -62,4 +62,36 @@ rl.on('line', (line) => {
 });
 ```
 
+### Implement the following features
+
+#### h for help
+> This feature gives some help for the user when he or she enters the letter 'h'
+
+```
+Robotquest (press h for help)> h
+'r' to turn-right, 'l' to turn-left, 'm' to move, ctrl+c to exit
+```
+Tips: 
+ - modify the `prompt` first
+ - add `h` as a `case` in the `switch` instructions of the `main()` function, and make it use a `console.log()` with a nice output explaining how to use the different keys (as described above). 
+
+ __OBS__: in order to make this feature work, you have to fix a _bug_ first in `applyStep()`. This bug makes it impossible for the user to read what `console.log()` prints out as the board is rendered each time ... (it is a bit tricky). __Bonus__ write a unit test that covers this bug. 
+
+
+#### turn right or left
+> This feature lets the robot understand 'r' and 'l' commands/input and behave accordingly. 
+
+Tips: 
+ - the implementation of the two commands, `r` and `l` will be quite similar as the `m` step. Look into the `switch` instructions of the `main()` function. 
+
+
+#### questions
+`readline` is a module of `Node.js`. `readline` can manage different _events_ and we have implemented two of them: `line` and `close`. When do they occur? What did we do of these events? What are the other events that we could have managed in our code?  
+
+
+Do you find some other possibilities to use _arrow functions_ in the code? Try them. 
+
+
+
+
 
