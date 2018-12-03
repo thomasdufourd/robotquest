@@ -33,7 +33,7 @@ let turns = 0;
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
-    prompt: '\nRobotquest (press h for help)> '
+    prompt: '\nRobotquest (press h for help)> ' // OBS: '\n' means 'new line'
 });
 
 
@@ -114,9 +114,6 @@ function renderBoard(board, flagReached) {
 
 function applyStep(robot, step, maxLineIndex, maxColumnIndex) {
 
-    if (step === undefined) {
-        return false;
-    }
 
     if (step === 'turn-right' || step === 'turn-left') {
         turns = features.turn(robot, step, turns);
